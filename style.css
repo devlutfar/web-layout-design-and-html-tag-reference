@@ -1,0 +1,79 @@
+.header {
+  min-height: 100px;
+  background-color: red;
+}
+.wrapper,
+.container,
+.service {
+  overflow: hidden;
+}
+.contact {
+  min-height: 200px;
+  background-color: green;
+  width: 60%;
+  float: left;
+}
+.blog {
+  min-height: 200px;
+  background-color: teal;
+  width: 40%;
+  float: left;
+}
+
+.about {
+  width: 33.33%;
+}
+.us {
+  min-height: 200px;
+  background-color: blueviolet;
+  float: left;
+}
+
+.hoome {
+  min-height: 200px;
+  background-color: darkblue;
+  float: left;
+}
+
+.page {
+  min-height: 200px;
+  background-color: gold;
+  float: left;
+}
+
+.box {
+  width: 20%;
+}
+.blue {
+  min-height: 300px;
+  background-color: blue;
+  float: left;
+}
+.yellow {
+  min-height: 300px;
+  background-color: yellow;
+  float: left;
+}
+.lime {
+  min-height: 300px;
+  background-color: lime;
+  float: left;
+}
+.pink {
+  min-height: 300px;
+  background-color: pink;
+  float: left;
+}
+.aqua {
+  min-height: 300px;
+  background-color: aqua;
+  float: left;
+}
+.footer {
+  min-height: 200px;
+  background-color: black;
+}
+.object {
+  width: 40%;
+  height: 400px;
+}

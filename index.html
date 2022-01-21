@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>layout design</h1>
+    <div class="header"></div>
+    <div class="wrapper">
+      <div class="contact"></div>
+      <div class="blog"></div>
+    </div>
+    <div class="service">
+      <div class="about us"></div>
+      <div class="about hoome"></div>
+      <div class="about page"></div>
+    </div>
+    <div class="container">
+      <div class="box blue"></div>
+      <div class="box yellow"></div>
+      <div class="box lime"></div>
+      <div class="box pink"></div>
+      <div class="box aqua"></div>
+    </div>
+    <div class="footer"></div>
+    <br />
+    <h1>html tag reference</h1>
+    <br /><br />
+    <h2>the noscript element</h2>
+    <br />
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, aliquam quibusdam ab quisquam incidunt unde voluptas minima quod error labore
+      iusto sunt vel asperiores libero eius perspiciatis eaque culpa ipsum!
+    </p>
+    <script>
+      document.write(Hello world!)
+    </script>
+    <noscript>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolor ipsum, in adipisci sequi voluptatum?</noscript><br />
+    <h2>the object element</h2>
+    <object class="object" data="river.jpg" type=""></object>
+    <br />
+    <h2>the ol element</h2>
+    <ol>
+      <li>Coffee</li>
+      <li>Tee</li>
+      <li>Milk</li>
+    </ol>
+    <ol start="50">
+      <li>Coffee</li>
+      <li>Tee</li>
+      <li>Milk</li>
+    </ol>
+    <br />
+    <h2>the optgroup and option element</h2>
+    <form action="#">
+      <label for="cars">Choose a car:</label>
+      <select name="cars" id="cars">
+        <optgroup label="German Cars">
+          <option value="mercedes">Mercedes</option>
+          <option value="audi">Audi</option>
+        </optgroup>
+      </select>
+    </form>
+    <br /><br />
+    <h2>the output element</h2>
+    <form oninput="x.value= parseInt (a.value)+parseInt (b.value)">
+      <input type="range" id="a" value="50" /> + <input type="number" id="b" value="30" />
+      <output name="x" for="a b"></output>
+    </form>
+    <br />
+    <h2>the p element</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga laboriosam voluptatum accusamus quas ipsa nam iure distinctio hic? Quo, iure?</p>
+    <br />
+    <h2>the param element</h2>
+    <object data="sound.mp3">
+      <param name="autoplay" value="true" />
+    </object>
+    <br /><br />
+    <h2>the pre element</h2>
+    <pre>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus odit, nisi incidunt soluta non mollitia aliquam? Magni consequuntur a voluptatibus!</pre
+    >
+    <br /><br />
+    <h2>the progress element</h2>
+    <label for="for file">Downloading progress :</label>
+    <progress id="file" value="75" max="100">35%</progress>
+    <br /><br />
+    <h2>the q element</h2>
+    <p>
+      WWF's goal is to:
+      <q>Build is a future people live in harmony with nature.</q>
+      We hope they succeed
+    </p>
+    <br /><br />
+    <h2>the s element</h2>
+    <p><s>Only 50 ticket left!</s></p>
+    <p>SOULD OUT!</p>
+    <br />
+    <h2>the samp element</h2>
+    <p>Message from my computer:</p>
+    <p>
+      <samp
+        >File not found. <br />
+        Press F1 to continue
+      </samp>
+    </p>
+    <br /><br />
+    <h2>the script element</h2>
+    <p id="demo"></p>
+    <script>
+      document.getElementById("demo").innerHTML = "Hello javascript!";
+    </script>
+    <br />
+    <h2>the section element</h2>
+    <section>
+      <h3>Lorem Ipsum</h3>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit laborum molestiae in velit, tenetur officiis unde voluptate consectetur,
+        doloremque neque, voluptatum reprehenderit quam. Sequi reprehenderit temporibus dolor aut reiciendis laudantium ratione veniam velit eligendi
+        fugiat.
+      </p>
+    </section>
+    <br />
+    <section>
+      <h3>Lorem Ipsum</h3>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit laborum molestiae in velit, tenetur officiis unde voluptate consectetur,
+        doloremque neque, voluptatum reprehenderit quam. Sequi reprehenderit temporibus dolor aut reiciendis laudantium ratione veniam velit eligendi
+        fugiat.
+      </p>
+    </section>
+    <br />
+    <h2>the select element</h2>
+    <form action="#">
+      <label for="cars">Choose a cars:</label>
+      <select name="cars" id="cars">
+        <option value="valvo">valvo</option>
+        <option value="sabb">Sabb</option>
+        <option value="opel">Opel</option>
+        <option value="audi">audi</option>
+        <option value="prado">Prado</option>
+      </select>
+    </form>
+    <br /><br />
+    <h2>the small element</h2>
+    <p>This is small normal text</p>
+    <p><small>This is some smaller normal text</small></p>
+    <br /><br />
+    <h2>the srong element</h2>
+    <p>This is text normal</p>
+    <p><strong>This text is important</strong></p>
+    <br />
+    <h2>the sub and sup element</h2>
+    <p>
+      Lorem ipsum, dolor <sub>sit amet consectetur adipisicing</sub> elit. Quisquam nisi quaerat numquam vitae quasi, deserunt modi quae cupiditate
+      sapiente eius. Debitis natus nihil quae ea repellendus! Nobis, a accusantium! Corrupti.
+    </p>
+    <p>
+      Lorem ipsum, dolor <sup>sit amet consectetur adipisicing</sup> elit. Quisquam nisi quaerat numquam vitae quasi, deserunt modi quae cupiditate
+      sapiente eius. Debitis natus nihil quae ea repellendus! Nobis, a accusantium! Corrupti.
+    </p>
+    <br /><br />
+    <h2>the summary element</h2>
+    <details>
+      <summary>Lorem Ipsum</summary>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam molestias quisquam mollitia quidem alias illo quod veniam ea adipisci aliquid
+        fugit cupiditate maxime in, consequuntur temporibus, dolores fugiat rerum id rem! Quam aliquam quod a aliquid? Ad temporibus autem itaque.
+      </p>
+    </details>
+    <br /><br />
+    <h2>the svg element</h2>
+    <svg width="100" height="100">
+      <circle cx="50" cy="50" r="40" stroke="navy" stroke-width="6" fill="aqua" />
+    </svg>
+    <br /><br />
+    <h2>the template element</h2>
+    <p>Click the button bellow to display the hidden content from the template content</p>
+    <button onclick="showContent()">Show hidden content</button>
+    <template>
+      <h2>River</h2>
+      <img src="river.jpg" alt="river" width="40%" height="400px" />
+    </template>
+    <script>
+      function (showContent)
+      {
+        var temp = document.getElementsByTagame("Teamplate")[0];
+        var clon = temp.content.cloneNode (true);
+        document.body.appendChild(clon);
+      }
+    </script>
+    <br /><br />
+    <h2>the u element</h2>
+    <p>the is some <u>mispeled</u> text</p>
+    <br /><br />
+  </body>
+</html>
